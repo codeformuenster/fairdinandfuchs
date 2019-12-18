@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Übersicht von Fairtrade Bekleidungsläden in Münster">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content='51.96,7.62' name='ICBM'>
+  <meta content='51.96;7.62' name='geo.position'>
+  <title>Fairtrade Bekleidungsläden in Münster</title>
+  <link rel="stylesheet" href="https://geraldpape.io/css/geraldpapeio.css">
+  <!-- <link rel="icon" href="https://geraldpape.io/favicon.png" type="image/png"> -->
+</head>
+<body>
+<div class="container content">
+
+  <style>
+    body {
+      margin-bottom: 0;
+    }
+    #map {
+      margin: 1rem 0;
+      height: 60vmin;
+    }
+    .popup-headline {
+      margin: 0.4rem 0;
+      text-transform: unset;
+    }
+    .popup-address {
+      margin: 0.2rem 0 !important;
+    }
+  </style>
+
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" 
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" 
+    crossorigin="anonymous" />
+
+  <script 
+    src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" 
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" 
+    crossorigin="anonymous"></script>
+
+  <script 
+    src="https://unpkg.com/showdown@1.9.1/dist/showdown.min.js" 
+    crossorigin="anonymous"></script>
+
+  <h2 id="fair-shops-münster">Fairführer</h2>
+
+  <p>Stand Dezember 2019, Lizenz: <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">cc0</a></p>
+
+  <div id="map"></div>
+
+  <p>Gemacht von <a href="https://www.montessori-muenster.org/">diesen hochkonzentrierten Vieren aus Klasse H</a>, alle Angaben ohne Gewähr, für Inhalte der verlinkten Seiten sind die jeweiligen Betreiber verantwortlich.</p>
+
+  <script src="map.js" defer=""></script>
+
+</div>
+</body>
+</html>

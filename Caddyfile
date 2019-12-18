@@ -1,0 +1,9 @@
+:8080
+
+file_server
+root * /var/www
+encode gzip
+
+# FIXME
+# - no admin
+# - auto reload browser page on file change?

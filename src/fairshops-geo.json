@@ -1,0 +1,63 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Grüne Wiese",
+          "goods": ["Hosen", "Oberteile", "Bauchtaschen", "Röcke", "Schals & Tücher", "Mützen", "Caps & Stirnbänder", "Gürtel"],
+          "link": {
+            "title": "grüne Wiese",
+            "url": "https://gruenewiese-shop.de/"
+          },
+          "markdown": "## Grüne Wiese\n\n### Fair gehandelte Waren:\n- Hosen\n- Oberteile \n- Bauchtaschen \n- Röcke\n- Schals & Tücher\n- Mützen,Caps & Stirnbänder\n- Gürtel\n\nlink: [grüne Wiese](https://gruenewiese-shop.de/)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.624184489250183,
+            51.96434904516123
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "goods": []
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.625260055065155,
+            51.95097382579319
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "goods": []
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.632029950618745,
+            51.961440291036496
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "goods": []
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.629884183406829,
+            51.958018957979306
+          ]
+        }
+      }
+    ]
+  }
