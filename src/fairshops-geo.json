@@ -4,13 +4,8 @@
       {
         "type": "Feature",
         "properties": {
-          "name": "Grüne Wiese",
-          "goods": ["Hosen", "Oberteile", "Bauchtaschen", "Röcke", "Schals & Tücher", "Mützen", "Caps & Stirnbänder", "Gürtel"],
-          "link": {
-            "title": "grüne Wiese",
-            "url": "https://gruenewiese-shop.de/"
-          },
-          "markdown": "## Grüne Wiese\n\n### Fair gehandelte Waren:\n- Hosen\n- Oberteile \n- Bauchtaschen \n- Röcke\n- Schals & Tücher\n- Mützen,Caps & Stirnbänder\n- Gürtel\n\nlink: [grüne Wiese](https://gruenewiese-shop.de/)"
+          "name": "grüne wiese",
+          "markdown": "## grüne wiese\n\n### Fair gehandelte Waren:\n- Hosen\n- Oberteile \n- Bauchtaschen \n- Röcke\n- Schals & Tücher\n- Mützen,Caps & Stirnbänder\n- Gürtel\n\nlink: [grüne wiese](https://gruenewiese-shop.de/)"
         },
         "geometry": {
           "type": "Point",
@@ -23,7 +18,8 @@
       {
         "type": "Feature",
         "properties": {
-          "goods": []
+          "name": "frau többen",
+          "markdown": "## frau többen\n\nlink: [frau többen](https://frautoebben.de/)"
         },
         "geometry": {
           "type": "Point",
@@ -36,7 +32,8 @@
       {
         "type": "Feature",
         "properties": {
-          "goods": []
+          "name": "?",
+          "markdown": "## ??\n\n"
         },
         "geometry": {
           "type": "Point",
@@ -49,7 +46,8 @@
       {
         "type": "Feature",
         "properties": {
-          "goods": []
+          "name": "?",
+          "markdown": "## ??\n\n"
         },
         "geometry": {
           "type": "Point",
